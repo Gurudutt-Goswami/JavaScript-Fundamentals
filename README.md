@@ -25,8 +25,8 @@ console.clear()                             //To clear the console
 ````
 
 ### Data Type & Declaring Variables
-#### Primitive: Data Types that are not made up of anything like undefined, null, number, string, Boolean, symbol
-#### Reference Data Type: Arrays & Objects 
+1) Primitive: Data Types that are not made up of anything like undefined, null, number, string, Boolean, symbol
+2) Reference Data Type: Arrays & Objects 
 
 #### Numbers
 ````
