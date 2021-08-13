@@ -32,6 +32,7 @@ First of all, inspect element in any website & then go to console (short cut ope
 15) [Local Storage](#Local-Storage)
 16) [JSON](#JSON)
 17) [Other Basic Things](#Other-Basic-Things)
+18) [Ecma Script Links](#ECMA-Script-Links)
 
 ### JavaScript Console API
 ````
@@ -384,3 +385,7 @@ a /=10
 console.log(a)
 ````
 
+### ECMA Script Links
+1) https://en.wikipedia.org/wiki/ECMAScript
+2) https://www.ecma-international.org/publications-and-standards/standards/ecma-262/
+3) https://developer.mozilla.org/en-US/docs/Web/JavaScript/Language_Resources
