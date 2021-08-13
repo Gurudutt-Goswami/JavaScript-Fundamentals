@@ -318,8 +318,8 @@ clr1 = setInterval(funny,2000)
 ````
 
 ### Local Storage
+Try not to store secure information on localstorages as it can be seen from Application tab from inspect element 
 ````
-//Try not to store secure information on localstorages as it can be seen from Application tab
 console.log(localStorage.setItem('Age','28'))
 console.log(localStorage.getItem('Name'))
 console.log(localStorage.removeItem('Name'))
@@ -333,7 +333,7 @@ obj1 = {name : "Guru",length: 97,a:{fun:"this is funny"}}
 str_equi = JSON.stringify(obj1)
 console.log(typeof str_equi)
 console.log(str_equi)
-json_equi = JSON.parse(````{"name":"Guru","length":97,"a":{"fun":"this is funny"}}````)
+json_equi = JSON.parse(`{"name":"Guru","length":97,"a":{"fun":"this is funny"}}`)
 console.log(json_equi)
 ````
 
@@ -341,7 +341,7 @@ console.log(json_equi)
 #### Template Literals
 ````
 a1 = 546
-console.log(````The value of a is ${a1}````)
+console.log(`The value of a is ${a1}`)
 ````
 #### This is to perform click in console using any class
 ````
