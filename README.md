@@ -14,6 +14,8 @@ First of all, inspect element in any website & then go to console (short cut ope
 ````
 <script src="FileName.js"></script>
 ````
+## Topics 
+1) [JS Console API](#JavaScript-Console-API)
 
 ### JavaScript Console API
 ````
