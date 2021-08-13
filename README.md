@@ -66,7 +66,7 @@ var und = undefined
 var und1;
 console.log(und, und1)
 ````
-#### In case you don’t specify any value for a variable & print it even then its value is going to be undefined 
+#### Note : In case you don’t specify any value for a variable & print it even then its value is going to be undefined 
 
 #### Boolean
 ````
