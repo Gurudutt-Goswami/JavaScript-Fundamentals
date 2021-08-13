@@ -28,7 +28,8 @@ First of all, inspect element in any website & then go to console (short cut ope
 console.warn("this is a warning !") #To print warning in console
 console.error("this is an error") #To print error in console
 console.assert(4==6) #To check for any assertion, will give error on wrong condition
-console.clear() #To clear the console````
+console.clear() #To clear the console
+````
 
 
 ### Data Type & Declaring Variables
