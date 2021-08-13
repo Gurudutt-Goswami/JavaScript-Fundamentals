@@ -17,11 +17,19 @@ First of all, inspect element in any website & then go to console (short cut ope
 ## Topics 
 1) [JS Console API](#JavaScript-Console-API)
 2) [Data Types & Declaring Variables](#Data-Type-&-Declaring-Variables)  
-     1)[Numbers](#Numbers)  
-     2)[String](#String)  
-     3)[Undefined](#Undefined)  
-3) [Operators](#Operators)
-4) [Conditionals](#Conditionals)
+          a)[Numbers](#Numbers)  
+          b)[String](#String)  
+          c)[Undefined](#Undefined)  
+          d)[Boolean](#Boolean)  
+          e)[Null](#null)  
+          f)[Arrays](#Arrays)  
+          g)[Objects](#Objects)  
+3) [Operators](#Operators)  
+          a)[Arithmetic](#Arithmetics)  
+          b)[Comparoson](#Comaparison)  
+          c)[Logical](#Logica)  
+5) [Conditionals](#Conditionals)
+6) 
 
 ### JavaScript Console API
 ````
