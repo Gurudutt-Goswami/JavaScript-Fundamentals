@@ -20,8 +20,8 @@ First of all, inspect element in any website & then go to console (short cut ope
            *[Numbers](#Numbers)
            *[String](#String)
            *[Undefined](#Undefined)
-3) [Operators][#Operators]
-4) Conditionals
+3) [Operators](#Operators)
+4) [Conditionals](#Conditionals)
 
 ### JavaScript Console API
 ````
