@@ -101,22 +101,13 @@ console.log("The value of a==b is ",a==b)
 ````
 
 #### Logical Operators 
-#### AND 
+#### AND ( && )
 ````
 console.log(true && true)
 console.log(true && false)
 console.log(false && false)
 ````
-### Shorthands
-````
-a +=10	// a = a+10
-a -=10
-a *=10
-a /=10
-console.log(a)
-````
-
-#### OR
+#### OR ( || )
 ````
 console.log(true || true)
 console.log(true || false)
@@ -124,7 +115,7 @@ console.log(false || false)
 ````
 #### Note: Single vertical line is bitwise operator
 
-#### NOT
+#### NOT ( ! )
 ````
 console.log(!true)
 console.log(!false)
@@ -365,6 +356,12 @@ document.getElementById(id)
 alert("This is an Alert!") #If you want to display anything in MessageBox
 ````
 
-
-
+#### Shorthands
+````
+a +=10	// a = a+10
+a -=10
+a *=10
+a /=10
+console.log(a)
+````
 
