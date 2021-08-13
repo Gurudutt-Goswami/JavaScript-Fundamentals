@@ -16,8 +16,8 @@ First of all, inspect element in any website & then go to console (short cut ope
 ````
 ## Topics 
 1) [JS Console API](#JavaScript-Console-API)
-2) [Data Types & Declaring Variables](#Data-Type-&-Declaring-Variables)     ([Numbers](#Numbers),[String](#String),[Undefined](#Undefined),[Boolean](#Boolean),[Null](#null),[Arrays](#Arrays),[Objects](#Objects) )
-3) [Operators](#Operators)      ([Arithmetic](#Arithmetics), [Comparoson](#Comaparison), [Logical](#Logical)  )
+2) [Data Types & Declaring Variables](#Data-Type-&-Declaring-Variables)&nbsp; ([Numbers](#Numbers),[String](#String),[Undefined](#Undefined),[Boolean](#Boolean),[Null](#null),[Arrays](#Arrays),[Objects](#Objects) )
+3) [Operators](#Operators)&nbsp; ([Arithmetic](#Arithmetics), [Comparoson](#Comaparison), [Logical](#Logical)  )
 4) [Conditionals](#Conditionals)
 5) [Loops](#Loops)
 6) [Break & continue](#Break-,-continue)
@@ -31,7 +31,7 @@ First of all, inspect element in any website & then go to console (short cut ope
 14) [SetTimeOut / SetInterval](#SetTimeout-&-SetInterval)
 15) [Local Storage](#Local-Storage)
 16) [JSON](#JSON)
-17) [Other Basic Things](#Other-Basic-Things))
+17) [Other Basic Things](#Other-Basic-Things)
 
 ### JavaScript Console API
 ````
