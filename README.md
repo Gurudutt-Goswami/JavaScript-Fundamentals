@@ -3,7 +3,7 @@
 
 
 
-`JavaScript (Client Side language)
+JavaScript (Client Side language)
 First of all, inspect element in any website & then go to console (short cut open console is Ctrl+ Shift+ i) & perform any calculation. You can also use this to print anything using console.log (“Hello World”) or alert (“Hello World”). It doesn’t need internet to run.
 JavaScript: Client Side Scripting (High Level Dynamic Interpreted Language) 
 •	In case you want to run JS outside the web browser then you can use node.js.
