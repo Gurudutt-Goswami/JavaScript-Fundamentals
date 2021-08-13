@@ -25,31 +25,46 @@ How to Include Js in HTML
 document.write("This is a document write") #To print anything 
 alert("This is an Alert!") #If you want to display anything in MessageBox
 
-//JavaScript Console API
+### JavaScript Console API
 console.log("Hello World!",4+6,”Fine !”)#If you want to print anything on console
 console.warn("this is a warning !") #To print warning in console
 console.error("this is an error") #To print error in console
 console.assert(4==6) #To check for any assertion, will give error on wrong condition
 console.clear() #To clear the console
 
-/*
-Data Type & Declaring Variables
-Primitive: Data Types that are not made up of anything like undefined, null, number, string, Boolean, symbol
-Reference Data Type: Arrays & Objects 
-*/
 
+### Data Type & Declaring Variables
+#### Primitive: Data Types that are not made up of anything like undefined, null, number, string, Boolean, symbol
+#### Reference Data Type: Arrays & Objects 
 
-//Numbers
+#### Numbers
 var num1 = 123
 var num2 = 345.5
 console.log(num1+num2)
 
-//Strings
+#### String
 Str1 = “Gurudutt”
 Str2 = “Goswami”
 Console.log(Str1+Str2)
 
-//Objects 
+#### Undefined
+var und = undefined
+var und1;
+console.log(und, und1)
+/*In case you don’t specify any value for a variable & print it even then its
+value is going to be undefined */
+
+#### Boolean
+a = true
+b = false
+console.log(a, b)
+
+#### Null
+n = null
+console.log(n)
+
+
+#### Objects
 var marks = {
 Ravi : 56,
 Sanjeev : 78,
@@ -58,30 +73,14 @@ Deepak : 67
 }
 Console.log(marks)
 
-//Undefined
-var und = undefined
-var und1;
-console.log(und, und1)
-/*In case you don’t specify any value for a variable & print it even then its
-value is going to be undefined */
-
-//Boolean
-a = true
-b = false
-console.log(a, b)
-
-//Null
-n = null
-console.log(n)
-
-//Arrays
+#### Arrays
 var arr = [1,3,2,5, true, "Fight Club",45.6,88,23]
 console.log(arr)
 
 
-//Operators
+### Operators
 
-//Arithmetic Operators 
+#### Arithmetic Operators 
 var a = 100
 var b = 50
 console.log("The value of a+b is ",a+b)
@@ -90,24 +89,28 @@ console.log("The value of a*b is ",a*b)
 console.log("The value of a/b is ",a/b)
 console.log("The value of a%b is ",a%b)
 
-//Shorthand
-a +=10	// a = a+10
-a -=10
-a *=10
-a /=10
-console.log(a)
-
-//Comparison Operators
+#### Comparison Operators
 console.log("The value of a>b is ",a>b)
 console.log("The value of a>=b is ",a>=b)
 console.log("The value of a<b is ",a<b)
 console.log("The value of a<=b is ",a<=b)
 console.log("The value of a==b is ",a==b)
 
-//Logical Operators 
+### Logical Operators 
 console.log(true && true)
 console.log(true && false)
 console.log(false && false)
+
+### Shorthands
+a +=10	// a = a+10
+a -=10
+a *=10
+a /=10
+console.log(a)
+
+
+
+
 
 console.log(true || true)
 console.log(true || false)
