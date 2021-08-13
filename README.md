@@ -20,7 +20,7 @@ First of all, inspect element in any website & then go to console (short cut ope
 3) [Operators](#Operators)&nbsp; ( [Arithmetic](#Arithmetic-Operators), [Comparison](#Comparison-Operators), [Logical](#Logical-Operators)  )
 4) [Conditionals](#Conditionals)
 5) [Loops](#Loops)
-6) [Break & continue](#Break-&-continue)
+6) [Break & continue](#Break-and-continue)
 7) [Array Functions](#Array-Functions)
 8) [String Functions](#String-Functions)
 9) [Date Functions](#Date-Functions)
@@ -175,7 +175,7 @@ j++;
 ````
 
 
-### Break , continue
+### Break and continue
 ````
 Num_array = [12,3,4,5,56,74,7,6,8,7,464,46,3]
 for(i=0;i<Num_array.length;i++)
@@ -214,7 +214,7 @@ console.log(d,good_str)
 ````
 #### For more on String Functions visit : https://www.w3schools.com/js/js_string_methods.asp
 
-### Date/Date Functions
+### Date Functions
 ````
 var date = new Date()
 console.log(date)
