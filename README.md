@@ -16,7 +16,7 @@ First of all, inspect element in any website & then go to console (short cut ope
 ````
 ## Topics 
 1) [JS Console API](#JavaScript-Console-API)
-2) [Data Types & Declaring Variables](#Data-Type-&-Declaring-Variables)
+2) [Data Types & Declaring Variables](#Data-Type-&-Declaring-Variables)  
      1)[Numbers](#Numbers)  
      2)[String](#String)  
      3)[Undefined](#Undefined)  
