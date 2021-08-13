@@ -146,7 +146,7 @@ if(a>b)
 else
 {console.log("B is greater than A")}
 ````
-#### Note: Any type of conditionals is possible like only if statement, multiple if statements, if else statements & if, else if, else (ladder if else statements) 
+#### Note : Any type of conditionals is possible like only if statement, multiple if statements, if else statements & if, else if, else (ladder if else statements) 
 
 
 ### Loops
@@ -337,7 +337,7 @@ clr1 = setInterval(funny,2000)
 ````
 
 ### Local Storage
-Try not to store secure information on localstorages as it can be seen from Application tab from inspect element 
+Tip : Try not to store secure information on localstorages as it can be seen from Application tab from inspect element 
 ````
 console.log(localStorage.setItem('Age','28'))
 console.log(localStorage.getItem('Name'))
