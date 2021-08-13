@@ -12,7 +12,7 @@ First of all, inspect element in any website & then go to console (short cut ope
 
 ### How to Include Js in HTML
 ````
-<script src="js.js"></script>
+<script src="FileName.js"></script>
 ````
 
 ### JavaScript Console API
