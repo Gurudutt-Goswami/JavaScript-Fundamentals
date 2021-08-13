@@ -20,7 +20,7 @@ First of all, inspect element in any website & then go to console (short cut ope
 3) [Operators](#Operators)&nbsp; ( [Arithmetic](#Arithmetic-Operators), [Comparison](#Comparison-Operators), [Logical](#Logical-Operators)  )
 4) [Conditionals](#Conditionals)
 5) [Loops](#Loops)
-6) [Break & continue](#Break-,-continue)
+6) [Break & continue](#Break-&-continue)
 7) [Array Functions](#Array-Functions)
 8) [String Functions](#String-Functions)
 9) [Date Functions](#Date-Functions)
