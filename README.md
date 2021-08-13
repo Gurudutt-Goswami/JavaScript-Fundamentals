@@ -10,33 +10,18 @@ First of all, inspect element in any website & then go to console (short cut ope
 4)	OOP’s concept can also be easy to implement.
 5)	It can be used for both front & backend (node & mongoDB)
 
-### This is to perform click in console using any class
-````
-Document.querySelector(“.something”).click()
-````
-
-### You can also search an element by class or id in console using 
-````
-document.getElementById(id)
-````
-
 ### How to Include Js in HTML
 ````
 <script src="js.js"></script>
 ````
 
-### Alert
-````
-alert("This is an Alert!") #If you want to display anything in MessageBox
-````
-
 ### JavaScript Console API
 ````
-console.log("Hello World!",4+6,”Fine !”)#If you want to print anything on console
-console.warn("this is a warning !") #To print warning in console
-console.error("this is an error") #To print error in console
-console.assert(4==6) #To check for any assertion, will give error on wrong condition
-console.clear() #To clear the console
+console.log("Hello World!",4+6,”Fine !”)    //If you want to print anything on console
+console.warn("this is a warning !")         //To print warning in console
+console.error("this is an error")           //To print error in console
+console.assert(4==6)                        //To check for any assertion, will give error on wrong condition
+console.clear()                             //To clear the console
 ````
 
 ### Data Type & Declaring Variables
@@ -115,7 +100,7 @@ console.log("The value of a<=b is ",a<=b)
 console.log("The value of a==b is ",a==b)
 ````
 
-### Logical Operators 
+#### Logical Operators 
 #### AND 
 ````
 console.log(true && true)
@@ -219,7 +204,8 @@ d = good_str.replace("programmer","Artist")
 console.log(d,good_str)
 ````
 
-//Date/Date Functions
+### Date/Date Functions
+````
 var date = new Date()
 console.log(date)
 console.log(date.getDay())
@@ -227,9 +213,10 @@ console.log(date.getHours())
 console.log(date.getMilliseconds())
 console.log(date.getMonth())
 console.log(date.getSeconds())
+````
 
-
-//===============DOM Manipulation Methods ===================
+### DOM Manipulation Methods
+````
 var l = document.getElementById("click")
 console.log(l)
 
@@ -253,11 +240,11 @@ l2[0].appendChild(createdElement)
 createdElement2 = document.createElement('b');
 createdElement2.innerText = "This is a new paragraph by using JavaScript Only bold statement"
 l2[0].replaceChild(createdElement2, createdElement)
+````
 
 
-
-//=======================Instant Element ====================
-
+### Fetch Instant Elements on any sites
+````
 console.log(document.location)
 console.log(document.title)
 console.log(document.URL)
@@ -272,9 +259,10 @@ console.log(sel)
 
 sel1 = document.querySelectorAll('.container')
 console.log(sel1)
+````
 
-
-//==================== Function Syntax =====================
+### Function Syntax
+````
 function sum(a,b)
 { console.log(a+b)
 return a+b}
@@ -285,9 +273,10 @@ summ = (a,b) => {
 console.log(a+b)
 return a+b}
 summ(56,34)
+````
 
-
-//======================= Events ===========================
+### Event Listeners
+````
 function Clicked()
 {console.log("The button was clicked !")}
 
@@ -318,10 +307,11 @@ firstContainer.addEventListener('mousedown',function()
     document.querySelectorAll('.container')[1].innerHTML = "<b> We have cliked this container "
     console.log("mouse down on Container !")
 })
+````
 
 
-
-//SetTimeout & SetInterval
+### SetTimeout & SetInterval
+````
 funny = () => {
     document.querySelectorAll('.container')[1].innerHTML = "Set Time out Invoked "
     console.log("Triggering SetTimeOut")
@@ -333,17 +323,19 @@ clr = setTimeout(funny,2000)
 //Set Interval is going to run continuosly after each 2 sec 
 //To stop its execution you can write clearInterval(clr1) in console
 clr1 = setInterval(funny,2000)
+````
 
-
-//===================== Local Storage ======================
+### Local Storage
+````
 //Try not to store secure information on localstorages as it can be seen from Application tab
 console.log(localStorage.setItem('Age','28'))
 console.log(localStorage.getItem('Name'))
 console.log(localStorage.removeItem('Name'))
 localStorage.clear()
 console.log(localStorage)
-
-//======================== JSON ============================
+````
+### JSON
+````
 //The JSON standard requires double quotes and will not accept single quotes, nor will the parser.
 obj1 = {name : "Guru",length: 97,a:{fun:"this is funny"}}
 str_equi = JSON.stringify(obj1)
@@ -351,13 +343,27 @@ console.log(typeof str_equi)
 console.log(str_equi)
 json_equi = JSON.parse(````{"name":"Guru","length":97,"a":{"fun":"this is funny"}}````)
 console.log(json_equi)
-//Template Literals
+````
+
+### Other Basic Things 
+#### Template Literals
+````
 a1 = 546
 console.log(````The value of a is ${a1}````)
-</script>
+````
+#### This is to perform click in console using any class
+````
+Document.querySelector(“.something”).click()
+````
 
-
-
+#### You can also search an element by class or id in console using 
+````
+document.getElementById(id)
+````
+#### Alert
+````
+alert("This is an Alert!") #If you want to display anything in MessageBox
+````
 
 
 
