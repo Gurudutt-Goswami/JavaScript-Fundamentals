@@ -1,24 +1,28 @@
 # JavaScript Fundamentals
-````
 First of all, inspect element in any website & then go to console (short cut open console is Ctrl+ Shift+ i) & perform any calculation. You can also use this to print anything using console.log (“Hello World”) or alert (“Hello World”). It doesn’t need internet to run.
-````
+
 
 ### JavaScript: Client Side Scripting (High Level Dynamic Interpreted Language) 
-````
-•	In case you want to run JS outside the web browser then you can use node.js.
-•	It can be executed on browser as well as server.
-•	There are languages the get trans piled into JS like Coffee Script, TypeScript etc
-•	OOP’s concept can also be easy to implement.
-•	It can be used for both front & backend (node & mongoDB)
-````
+
+1)	In case you want to run JS outside the web browser then you can use node.js.
+2)	It can be executed on browser as well as server.
+3)	There are languages the get trans piled into JS like Coffee Script, TypeScript etc
+4)	OOP’s concept can also be easy to implement.
+5)	It can be used for both front & backend (node & mongoDB)
+
 ### This is to perform click in console using any class
-````Document.querySelector(“.something”).click()````
+````
+Document.querySelector(“.something”).click()
+````
 
 ### You can also search an element by class or id in console using 
-````document.getElementById(id)````
+````
+document.getElementById(id)
+````
 
 ### How to Include Js in HTML
-````<script src="js.js"></script>````
+````
+<script src="js.js"></script>````
 
 ### Alert
 ````alert("This is an Alert!") #If you want to display anything in MessageBox````
