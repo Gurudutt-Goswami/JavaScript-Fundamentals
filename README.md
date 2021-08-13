@@ -17,19 +17,31 @@ First of all, inspect element in any website & then go to console (short cut ope
 ## Topics 
 1) [JS Console API](#JavaScript-Console-API)
 2) [Data Types & Declaring Variables](#Data-Type-&-Declaring-Variables)  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbspa)[Numbers](#Numbers)  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbspb)[String](#String)  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbspc)[Undefined](#Undefined)  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbspd)[Boolean](#Boolean)  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbspe)[Null](#null)  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbspf)[Arrays](#Arrays)  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbspg)[Objects](#Objects)  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp a)[Numbers](#Numbers)  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp b)[String](#String)  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp c)[Undefined](#Undefined)  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp d)[Boolean](#Boolean)  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp e)[Null](#null)  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp f)[Arrays](#Arrays)  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp g)[Objects](#Objects)  
 3) [Operators](#Operators)  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbspa)[Arithmetic](#Arithmetics)  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbspb)[Comparoson](#Comaparison)  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbspc)[Logical](#Logica)  
-5) [Conditionals](#Conditionals)
-6) 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp a)[Arithmetic](#Arithmetics)  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp b)[Comparoson](#Comaparison)  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp c)[Logical](#Logica)  
+4) [Conditionals](#Conditionals)
+5) [Loops](#Loops)
+6) [Break & continue](#Break-,-continue)
+7) [Array Functions](#Array-Functions)
+8) [String Functions](#String-Functions)
+9) [Date Functions](#Date-Functions)
+10) [DOM Manipulation Methods](#DOM-Manipulation-Methods)
+11) [Fetch Instant Elements on any sites](#Fetch-Instant-Elements-on-any-sites)
+12) [Functions](#Functions)
+13) [Event Listeners](#Event-Listeners)
+14) [SetTimeOut / SetInterval](#SetTimeout-&-SetInterval)
+15) [Local Storage](#Local-Storage)
+16) [JSON](#JSON)
+17) [Other Basic Things](#Other-Basic-Things))
 
 ### JavaScript Console API
 ````
@@ -173,7 +185,7 @@ j++;
 ````
 
 
-### Break & continue
+### Break , continue
 ````
 Num_array = [12,3,4,5,56,74,7,6,8,7,464,46,3]
 for(i=0;i<Num_array.length;i++)
