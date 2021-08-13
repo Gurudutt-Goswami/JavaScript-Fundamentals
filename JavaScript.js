@@ -1,0 +1,342 @@
+//document.write("This is a document write")
+//alert("This is an Alert!")
+
+//==========================Javascript Console API==========================
+//console.log("Hello World!")
+// console.assert(4 == 6)
+// console.warn("this is a warning !")
+// console.error("this is an error")
+// console.clear()
+
+
+//=================== Data Types in JS ===================
+
+// 1) Primitive Data Types
+//Numbers 
+var num1 = 120
+var num2 = 325.78
+console.log(num1 + num2)
+
+//Strings
+Str1 = "Gurudutt"
+Str2 = " Goswami"
+console.log(Str1 + Str2)
+
+//Undefined
+var und = undefined
+var und1;
+console.log(und, und1)
+
+//Boolean
+a = true
+b = false
+console.log(a, b)
+
+//Null
+n = null
+console.log(n)
+
+// 2) Reference Data Types
+//Arrays
+var arr = [1, 3, 2, 5, true, "Fight Club", 45.6, 88, 23]
+console.log(arr)
+
+//Objects
+var marks = {
+    Ravi: 56,
+    Sanjeev: 78,
+    Ashish: 84,
+    Deepak: 67
+}
+console.log(marks)
+
+//=================================================================
+
+
+//========================= Operators =============================
+
+//Arithmetic Operators 
+var a = 100
+var b = 50
+console.log("The value of a+b is ", a + b)
+console.log("The value of a-b is ", a - b)
+console.log("The value of a*b is ", a * b)
+console.log("The value of a/b is ", a / b)
+console.log("The value of a%b is ", a % b)
+
+//Shorthand
+a += 10  // a = a+10
+a -= 10
+a *= 10
+a /= 10
+console.log(a)
+
+
+//Comparison Operators
+console.log("The value of a>b is ", a > b)
+console.log("The value of a>=b is ", a >= b)
+console.log("The value of a<b is ", a < b)
+console.log("The value of a<=b is ", a <= b)
+console.log("The value of a==b is ", a == b)
+
+
+//Logical Operators 
+console.log(true && true)
+console.log(true && false)
+console.log(false && false)
+
+console.log(true || true)
+console.log(true || false)
+console.log(false || false)
+
+console.log(!true)
+console.log(!false)
+
+//===========================================================
+
+
+
+//======================= Conditionals ======================
+if (a > b) { console.log("A is greater than B") }
+else { console.log("B is greater than A") }
+//===========================================================
+
+
+
+
+//========================= Loops ===========================
+names = ["Anurag","Deepak","Shudhanshu","Prasoon","Shashank","Abhishek","Satyam","Prabhat"]
+console.log(names)
+
+
+for(i=0;i<names.length;i++)
+{console.log(names[i])}
+
+names.forEach(function(element)
+{console.log(element);})
+
+ var j=0
+while(j<names.length)
+{console.log(names[j])
+j++;}
+
+do{
+console.log(names[j])
+j++;
+}while(j<names.length)
+//===========================================================
+
+
+
+//======================= break & continue===================
+Num_array = [12,3,4,5,56,74,7,6,8,7,464,46,3]
+for(i=0;i<Num_array.length;i++)
+{   
+    if(i==3)
+    {
+        //break;
+        continue;
+    }
+    console.log(Num_array[i])
+}
+//===========================================================
+
+
+
+
+//====================== Array Function ======================
+new_array = [12,3,4,5,56,74,7,6,8,7,464,46,3,23,4,2,5,3,5,2,35,3,35,5,3]
+new_array.length
+new_array.pop()
+new_array.push("Gurudutt")
+new_array.shift()
+new_array.unshift("Horse");
+console.log(new_array.toString())
+console.log(new_array.sort())
+console.log(new_array);
+//===========================================================
+
+
+
+
+
+//====================== String Function ====================
+var good_str = "Gurudutt Goswami is a good programmer good"
+good_str.length
+console.log(good_str.indexOf("good"))
+console.log(good_str.lastIndexOf("good"))
+console.log(good_str.slice(9,16))
+d = good_str.replace("programmer","Artist")
+console.log(d,good_str)
+//===========================================================
+
+
+
+//=================== Date/Date Functions====================
+var date = new Date()
+console.log(date)
+console.log(date.getDay())
+console.log(date.getHours())
+console.log(date.getMilliseconds())
+console.log(date.getMonth())
+console.log(date.getSeconds())
+//===========================================================
+
+
+
+//===============DOM Manipulation Methods ===================
+var l = document.getElementById("click")
+console.log(l)
+
+var l1 = document.getElementsByClassName("container")
+console.log(l1);
+// l1[0].style.background = "yellow"
+l1[0].classList.add("bg-primary")
+l1[0].classList.add("text-success")
+l1[0].classList.remove("text-success")
+console.log(l1[0].innerHTML)
+console.log(l1[0].innerText)
+
+var l2= document.getElementsByTagName("div")
+console.log(l2)
+
+//Note 0 means l2 first div if I write 1 then it means l2 second div
+createdElement = document.createElement('p');
+createdElement.innerText = "This is a new paragraph by using JavaScript Only"
+l2[0].appendChild(createdElement)
+
+createdElement2 = document.createElement('b');
+createdElement2.innerText = "This is a new paragraph by using JavaScript Only bold statement"
+l2[0].replaceChild(createdElement2, createdElement)
+
+//===========================================================
+
+
+
+
+//=======================Instant Element ====================
+
+console.log(document.location)
+console.log(document.title)
+console.log(document.URL)
+console.log(document.scripts)
+console.log(document.forms)
+console.log(document.links)
+console.log(document.domain)
+console.log(document.images)
+
+sel = document.querySelector('.container')
+console.log(sel)
+
+sel1 = document.querySelectorAll('.container')
+console.log(sel1)
+
+//==========================================================
+
+
+
+//==================== Function Syntax =====================
+
+function sum(a,b)
+{ console.log(a+b)
+return a+b}
+
+sum(4,5)
+
+//Arrow Function 
+summ = (a,b) => {
+console.log(a+b)
+return a+b
+}
+summ(56,34)
+
+//==========================================================
+
+
+
+
+//======================= Events ===========================
+
+// function Clicked()
+// {console.log("The button was clicked !")}
+
+// window.onload = function()
+// { console.log("The document was loaded successfully !")}
+
+
+
+// firstContainer.addEventListener('click',function()
+// {
+//     document.querySelectorAll('.container')[1].innerHTML = "<b> We have cliked this container "
+//     console.log("Clicked on Container !")
+// })
+
+// firstContainer.addEventListener('mouseover',function()
+// {console.log("mouse over on Container !")
+// })
+
+// previous_html = document.querySelectorAll('.container')[1].innerHTML
+// firstContainer.addEventListener('mouseup',function()
+// {
+//     document.querySelectorAll('.container')[1].innerHTML = previous_html
+//     console.log("mouse up on Container !")
+// })
+
+// firstContainer.addEventListener('mousedown',function()
+// {
+//     document.querySelectorAll('.container')[1].innerHTML = "<b> We have cliked this container "
+//     console.log("mouse down on Container !")
+// })
+
+//==========================================================
+
+
+
+
+
+
+
+//================= Setimeout & setInterval ================
+
+funny = () => {
+    document.querySelectorAll('.container')[1].innerHTML = "Set Time out Invoked "
+    console.log("Triggering SetTimeOut")
+}
+//SetTimeOut is used when you want to invoke a function after certain time 
+//To stop its execution one can write clearTimeout(clr) in console
+//clr = setTimeout(funny,2000) 
+
+//Set Interval is going to run continuosly after each 2 sec 
+//To stop its execution you can write clearInterval(clr1) in console
+// clr1 = setInterval(funny,2000)
+
+//==========================================================
+
+
+
+//===================== Local Storage ======================
+//Try not to store secure information on localstorages as it can be seen from Application tab
+console.log(localStorage.setItem('Age','28'))
+console.log(localStorage.getItem('Name'))
+console.log(localStorage.removeItem('Name'))
+localStorage.clear()
+console.log(localStorage)
+//==========================================================
+
+
+
+
+//======================== JSON ============================
+//The JSON standard requires double quotes and will not accept single quotes, nor will the parser.
+obj1 = {name : "Guru",length: 97,a:{fun:"this is funny"}}
+str_equi = JSON.stringify(obj1)
+console.log(typeof str_equi)
+console.log(str_equi)
+json_equi = JSON.parse(`{"name":"Guru","length":97,"a":{"fun":"this is funny"}}`)
+console.log(json_equi)
+//==========================================================
+
+
+//Template Literals
+a1 = 546
+console.log(`The value of a is ${a1}`)
