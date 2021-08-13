@@ -182,7 +182,7 @@ console.log(new_array.toString())
 console.log(new_array.sort())
 console.log(new_array);
 ````
-#### For more Array functions visit: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array
+#### For more on Array functions visit: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array
 
 ### String Functions
 ````
@@ -194,6 +194,7 @@ console.log(good_str.slice(9,16))
 d = good_str.replace("programmer","Artist")
 console.log(d,good_str)
 ````
+#### For more on String Functions visit : https://www.w3schools.com/js/js_string_methods.asp
 
 ### Date/Date Functions
 ````
