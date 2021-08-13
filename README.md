@@ -26,9 +26,9 @@ First of all, inspect element in any website & then go to console (short cut ope
 9) [Date Functions](#Date-Functions)
 10) [DOM Manipulation Methods](#DOM-Manipulation-Methods)
 11) [Fetch Instant Elements on any sites](#Fetch-Instant-Elements-on-any-sites)
-12) [Functions](#Functions)
+12) [Functions](#Functions-Syntax)
 13) [Event Listeners](#Event-Listeners)
-14) [SetTimeOut / SetInterval](#SetTimeout-&-SetInterval)
+14) [SetTimeOut / SetInterval](#SetTimeout-and-SetInterval)
 15) [Local Storage](#Local-Storage)
 16) [JSON](#JSON)
 17) [Other Basic Things](#Other-Basic-Things)
@@ -320,7 +320,7 @@ firstContainer.addEventListener('mousedown',function()
 ````
 
 
-### SetTimeout & SetInterval
+### SetTimeout and SetInterval
 ````
 funny = () => {
     document.querySelectorAll('.container')[1].innerHTML = "Set Time out Invoked "
