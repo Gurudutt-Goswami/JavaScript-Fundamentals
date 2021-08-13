@@ -16,7 +16,7 @@ First of all, inspect element in any website & then go to console (short cut ope
 ````
 ## Topics 
 1) [JS Console API](#JavaScript-Console-API)
-2) [Data Types & Declaring Variables](#Data-Type-&-Declaring-Variables)&nbsp; ( [Numbers](#Numbers),[String](#String),[Undefined](#Undefined),[Boolean](#Boolean),[Null](#null),[Arrays](#Arrays),[Objects](#Objects) )
+2) [Data Types and Declaring Variables](#Data-Type-&-Declaring-Variables)&nbsp; ( [Numbers](#Numbers),[String](#String),[Undefined](#Undefined),[Boolean](#Boolean),[Null](#null),[Arrays](#Arrays),[Objects](#Objects) )
 3) [Operators](#Operators)&nbsp; ( [Arithmetic](#Arithmetic-Operators), [Comparison](#Comparison-Operators), [Logical](#Logical-Operators)  )
 4) [Conditionals](#Conditionals)
 5) [Loops](#Loops)
@@ -42,7 +42,7 @@ console.assert(4==6)                        //To check for any assertion, will g
 console.clear()                             //To clear the console
 ````
 
-### Data Type & Declaring Variables
+### Data Type and Declaring Variables
 1) Primitive: Data Types that are not made up of anything like undefined, null, number, string, Boolean, symbol
 2) Reference Data Type: Arrays & Objects 
 
