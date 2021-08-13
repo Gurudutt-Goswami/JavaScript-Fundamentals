@@ -1,31 +1,34 @@
 # JavaScript Fundamentals
+`
 First of all, inspect element in any website & then go to console (short cut open console is Ctrl+ Shift+ i) & perform any calculation. You can also use this to print anything using console.log (“Hello World”) or alert (“Hello World”). It doesn’t need internet to run.
+`
 
 ### JavaScript: Client Side Scripting (High Level Dynamic Interpreted Language) 
+`
 •	In case you want to run JS outside the web browser then you can use node.js.
 •	It can be executed on browser as well as server.
 •	There are languages the get trans piled into JS like Coffee Script, TypeScript etc
 •	OOP’s concept can also be easy to implement.
 •	It can be used for both front & backend (node & mongoDB)
-
+`
 ### This is to perform click in console using any class
-Document.querySelector(“.something”).click()
+`Document.querySelector(“.something”).click()`
 
 ### You can also search an element by class or id in console using 
-document.getElementById(id)
+`document.getElementById(id)`
 
 ### How to Include Js in HTML
-<script src="js.js"></script>
+`<script src="js.js"></script>`
 
 ### Alert
-alert("This is an Alert!") #If you want to display anything in MessageBox
+`alert("This is an Alert!") #If you want to display anything in MessageBox`
 
 ### JavaScript Console API
-console.log("Hello World!",4+6,”Fine !”)#If you want to print anything on console
+`console.log("Hello World!",4+6,”Fine !”)#If you want to print anything on console
 console.warn("this is a warning !") #To print warning in console
 console.error("this is an error") #To print error in console
 console.assert(4==6) #To check for any assertion, will give error on wrong condition
-console.clear() #To clear the console
+console.clear() #To clear the console`
 
 
 ### Data Type & Declaring Variables
@@ -33,33 +36,46 @@ console.clear() #To clear the console
 #### Reference Data Type: Arrays & Objects 
 
 #### Numbers
+`
 var num1 = 123
 var num2 = 345.5
 console.log(num1+num2)
-
+`
 #### String
+`
 Str1 = “Gurudutt”
 Str2 = “Goswami”
 Console.log(Str1+Str2)
+`
 
 #### Undefined
+`
 var und = undefined
 var und1;
 console.log(und, und1)
 /*In case you don’t specify any value for a variable & print it even then its
 value is going to be undefined */
-
+`
 #### Boolean
+`
 a = true
 b = false
 console.log(a, b)
+`
 
 #### Null
+`
 n = null
 console.log(n)
+`
 
-
+#### Arrays
+`
+var arr = [1,3,2,5, true, "Fight Club",45.6,88,23]
+console.log(arr)
+`
 #### Objects
+`
 var marks = {
 Ravi : 56,
 Sanjeev : 78,
@@ -67,11 +83,7 @@ Ashish: 84,
 Deepak : 67
 }
 Console.log(marks)
-
-#### Arrays
-var arr = [1,3,2,5, true, "Fight Club",45.6,88,23]
-console.log(arr)
-
+`
 
 ### Operators
 
