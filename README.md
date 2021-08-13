@@ -22,19 +22,22 @@ document.getElementById(id)
 
 ### How to Include Js in HTML
 ````
-<script src="js.js"></script>````
+<script src="js.js"></script>
+````
 
 ### Alert
-````alert("This is an Alert!") #If you want to display anything in MessageBox````
+````
+alert("This is an Alert!") #If you want to display anything in MessageBox
+````
 
 ### JavaScript Console API
-````console.log("Hello World!",4+6,”Fine !”)#If you want to print anything on console
+````
+console.log("Hello World!",4+6,”Fine !”)#If you want to print anything on console
 console.warn("this is a warning !") #To print warning in console
 console.error("this is an error") #To print error in console
 console.assert(4==6) #To check for any assertion, will give error on wrong condition
 console.clear() #To clear the console
 ````
-
 
 ### Data Type & Declaring Variables
 #### Primitive: Data Types that are not made up of anything like undefined, null, number, string, Boolean, symbol
@@ -93,6 +96,7 @@ Console.log(marks)
 ### Operators
 
 #### Arithmetic Operators 
+````
 var a = 100
 var b = 50
 console.log("The value of a+b is ",a+b)
@@ -100,69 +104,85 @@ console.log("The value of a-b is ",a-b)
 console.log("The value of a*b is ",a*b)
 console.log("The value of a/b is ",a/b)
 console.log("The value of a%b is ",a%b)
+````
 
 #### Comparison Operators
+````
 console.log("The value of a>b is ",a>b)
 console.log("The value of a>=b is ",a>=b)
 console.log("The value of a<b is ",a<b)
 console.log("The value of a<=b is ",a<=b)
 console.log("The value of a==b is ",a==b)
+````
 
 ### Logical Operators 
+#### AND 
+````
 console.log(true && true)
 console.log(true && false)
 console.log(false && false)
-
+````
 ### Shorthands
+````
 a +=10	// a = a+10
 a -=10
 a *=10
 a /=10
 console.log(a)
+````
 
-
-
-
-
+#### OR
+````
 console.log(true || true)
 console.log(true || false)
 console.log(false || false)
-//Note: Single vertical line is bitwise operator
+````
+#### Note: Single vertical line is bitwise operator
 
+#### NOT
+````
 console.log(!true)
 console.log(!false)
-
-//Conditionals
+````
+### Conditionals
+````
 if(a>b)
 {console.log("A is greater than B")}
 else
 {console.log("B is greater than A")}
-/*Note: Any type of conditionals is possible like only if statement, multiple if statements, if else statements & if else if else (ladder if else statements) */
+````
+#### Note: Any type of conditionals is possible like only if statement, multiple if statements, if else statements & if, else if, else (ladder if else statements) 
 
 
-//Loops
+### Loops
+````
 names = ["Anurag","Deepak","Shudhanshu","Prasoon","Abhishek",”Prabhat"]
 console.log(names)
 
+//For loop
 for(i=0;i<names.length;i++)
 {console.log(names[i])}
 
+//foreach loop
 names.forEach(function(element)
 {console.log(element);})
 
+//while loop
 var j=0
 while(j<names.length)
 {console.log(names[j])
 j++;}
 
+//do while loop
 do{
 console.log(names[j])
 j++;
 }while(j<names.length)
+````
 
 
-
-//Break & continue
+### Break & continue
+````
 Num_array = [12,3,4,5,56,74,7,6,8,7,464,46,3]
 for(i=0;i<Num_array.length;i++)
 {   
@@ -173,7 +193,9 @@ for(i=0;i<Num_array.length;i++)
     }
     console.log(Num_array[i])
 }
-//Array Functions
+````
+### Array Functions
+````
 new_array = [12,3,4,5,56,74,7,6,8,7,464,46,3,23,4,2,5,3,5,2,35,3,35,5,3]
 new_array.length
 new_array.pop()
@@ -183,11 +205,11 @@ new_array.unshift("Horse");
 console.log(new_array.toString())
 console.log(new_array.sort())
 console.log(new_array);
-/*For more Array functions visit: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array */
+````
+#### For more Array functions visit: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array
 
-
-
-//String Functions
+### String Functions
+````
 var good_str = "Gurudutt Goswami is a good programmer good"
 good_str.length
 console.log(good_str.indexOf("good"))
@@ -195,7 +217,7 @@ console.log(good_str.lastIndexOf("good"))
 console.log(good_str.slice(9,16))
 d = good_str.replace("programmer","Artist")
 console.log(d,good_str)
-
+````
 
 //Date/Date Functions
 var date = new Date()
